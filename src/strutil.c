@@ -8,7 +8,6 @@ char *str_reverse(char *s) {
         s[i] = s[len - 1 - i];
         s[len - 1 - i] = tmp;
     }
-    return s;
 }
 
 int str_count_char(const char *s, char c) {
