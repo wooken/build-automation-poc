@@ -1,7 +1,5 @@
 #include "strutil.h"
-
-/* BUG: missing #include <string.h> for strlen() */
-/* BUG: missing #include <stddef.h> for size_t */
+#include <string.h>
 
 char *str_reverse(char *s) {
     size_t len = strlen(s);
