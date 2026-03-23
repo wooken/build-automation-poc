@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /Users/kennywoo/code/build-automation-poc/src)",
+      "Bash(mkdir -p /Users/kennywoo/code/build-automation-poc/.github/workflows)"
+    ]
+  }
+}
